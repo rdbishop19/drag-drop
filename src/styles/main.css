@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+    font-family: Helvetica;
+    background-color: #20262e;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .stage {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .currentStage {
+    min-height: 100px;
+    border: 1px dotted lightpink;
+    margin-bottom: 15px;
+  }
+  
+  .finishedStage {
+    min-height: 100px;
+    border: 1px dotted lightseagreen;
+    margin-top: 15px;
+  }
+  
